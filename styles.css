@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #002D06; /* Verde astronomia */
+}
+
+.container {
+    position: relative;
+}
+
+img.logo {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p.entrada {
+    color: #ffffff; /* Color del texto (blanco en este caso) */
+    font-size: 24px; /* Tamaño del texto */
+    margin: 0 auto; /* Centra el párrafo horizontalmente */
+    margin-top: 0px; /* Espaciado superior del párrafo */
+    width: 80%; /* Ocupa el 50% del ancho de la página */
+    text-align: center;
+}
+
+p.adicional {
+    color: #ffffff; /* Color del texto (blanco en este caso) */
+    font-size: 24px; /* Tamaño del texto */
+    margin: 0 auto; /* Centra el párrafo horizontalmente */
+    margin-top: 50px; /* Espaciado superior del párrafo */
+    width: 80%; /* Ocupa el 50% del ancho de la página */
+    text-align: center;
+}
+
+a {
+    color: #ffdd00; /* Color del enlace complementario al verde (#002D06) */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    font-weight: bold; /* Opcional: Peso de la fuente en negrita para enfatizar los enlaces */
+}
+
+a:hover {
+    text-decoration: underline; /* Agrega subrayado al pasar el ratón sobre el enlace */
+}
