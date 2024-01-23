@@ -1,10 +1,12 @@
 body {
+    /*
     margin: 0;
     padding: 0;
-    display: flex;
+    //display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    //justify-content: center;
+    //height: 100vh;
+    */
     background-color: #002D06; /* Verde astronomia */
 }
 
@@ -25,7 +27,7 @@ img.logo {
 
 p.entrada {
     color: #ffffff; /* Color del texto (blanco en este caso) */
-    font-size: 24px; /* Tamaño del texto */
+    font-size: 1.3em; /* Tamaño del texto */
     margin: 0 auto; /* Centra el párrafo horizontalmente */
     margin-top: 0px; /* Espaciado superior del párrafo */
     width: 80%; /* Ocupa el 50% del ancho de la página */
@@ -50,3 +52,4 @@ a {
 a:hover {
     text-decoration: underline; /* Agrega subrayado al pasar el ratón sobre el enlace */
 }
+
